@@ -655,7 +655,7 @@ section
 }
 .hero_slider_container
 {
-	width: 100%;
+	width: cover;
 	height: 840px;
 	margin-top: 110px;
 
