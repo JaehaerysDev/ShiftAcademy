@@ -657,7 +657,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	margin-top: 400px;
+	margin-top: 110px;
 
 
 
@@ -686,7 +686,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	margin: auto;
+	margin:auto;
 }
 .main_slider_content
 {
