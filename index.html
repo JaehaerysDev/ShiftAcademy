@@ -13,6 +13,8 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <!-- ManyChat -->
 <script src="//widget.manychat.com/1869135339851510.js" async="async"></script>
 <!-- Facebook Pixel Code -->
@@ -79,7 +81,7 @@
 
 				<!-- Slider Item -->
 
-					<div class="main_slider_item_bg" style="background-image:url(images/hero.jpg)"></div>
+					<div class="main_slider_item_bg" style="background-image:url(images/heroillustration.jpg)"></div>
 					<div class="container">
 						<div class="row">
 							<div class="col slider_content_col">
@@ -188,6 +190,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/custom.js"></script>
+<script>
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 40) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+});
+</script>
 </body>
 
 </html>
