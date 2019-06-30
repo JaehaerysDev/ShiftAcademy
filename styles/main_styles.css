@@ -305,6 +305,13 @@ section
 	transition: all 300ms ease;
 }
 
+.header.active {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
 /*********************************
 3.1 Logo
 *********************************/
@@ -362,7 +369,7 @@ section
 }
 .nav_items li a
 {
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #FF6600;
