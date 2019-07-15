@@ -825,6 +825,11 @@ section
 	background-color: white;
 }
 
+.boton_paypal
+{	
+	padding-bottom: 20px;
+}
+
 /*********************************
 9. Services
 *********************************/
